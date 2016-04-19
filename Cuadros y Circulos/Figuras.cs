@@ -20,8 +20,8 @@ namespace Cuadros_y_Circulos
             X = x;
             Y = y;
             pluma = new Pen(Color.Red, 2);
-            ancho = 10;
-            largo = 10;
+            ancho = 30;
+            largo = 30;
 
         }
         public abstract void Dibuja(Form f);

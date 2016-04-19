@@ -40,6 +40,15 @@ namespace Cuadros_y_Circulos
                 Rectangulo r = new Rectangulo(e.X, e.Y);
                 r.Dibuja(this);
                 figuras.Add(r);
+
+            }
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            foreach (Figuras f in figuras)
+            {
+                f.Dibuja(this);
             }
         }
     }
